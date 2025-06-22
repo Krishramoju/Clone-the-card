@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f5f5;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-card {
+  background: white;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-details {
+  padding: 16px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.product-rating {
+  color: #f0a500;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.product-rating span {
+  color: #444;
+  font-size: 14px;
+}
+
+.product-note {
+  color: #555;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.product-price {
+  margin-bottom: 12px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+}
+
+.price sup {
+  font-size: 14px;
+}
+
+.delivery {
+  display: block;
+  font-size: 14px;
+  color: #777;
+}
+
+.shipping {
+  display: block;
+  font-size: 14px;
+  color: #444;
+  margin-top: 4px;
+}
+
+.add-to-cart {
+  background-color: #ffd814;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #f7ca00;
+}
